@@ -62,7 +62,7 @@ casks=(
     google-chrome
     vivaldi
     opera
-    microsoft-edge
+    microsoft-edge      # .pkg installer, requests password.
     alfred
     betterzip
     default-folder-x
@@ -78,13 +78,13 @@ casks=(
     imageoptim
     sourcetree
     handbrake
-    authy
+    # authy
     iina
     vlc
-    microsoft-teams
+    microsoft-teams     # .pkg installer, requests password.
     skype
-    zoom
-    microsoft-office
+    # zoom              # .pkg installer, requests password.
+    microsoft-office    # .pkg installer, requests password.
     libreoffice
     soulver
 )

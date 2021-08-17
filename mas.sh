@@ -43,6 +43,8 @@ mas install 1224268771  # Screens
 mas install 1295203466  # Microsoft Remote Desktop
 mas install 1289583905  # Pixelmator Pro
 mas install 1147396723  # WhatsApp
+# mas install 836500024   # WeChat
+# mas install 747648890   # Telegram
 mas install 568494494   # Pocket
 mas install 1482454543  # Twitter
 mas install 897118787   # Shazam
