@@ -66,12 +66,14 @@ casks=(
     alfred
     betterzip
     default-folder-x
+    hyperdock
     soundsource
     moom
     little-snitch
     hazel
     bartender
     spotify
+    # julia
     docker
     visual-studio-code
     jetbrains-toolbox
@@ -81,6 +83,8 @@ casks=(
     # authy
     iina
     vlc
+    downie
+    permute
     microsoft-teams     # .pkg installer, requests password.
     skype
     # zoom              # .pkg installer, requests password.
