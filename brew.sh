@@ -70,6 +70,7 @@ casks=(
     soundsource
     moom
     little-snitch
+    cloudflare-warp
     hazel
     bartender
     spotify
