@@ -54,3 +54,5 @@ mas install 409183694   # Keynote
 
 # Upgrade any already-installed apps.
 mas upgrade
+
+echo "Success! Mac App Store applications are installed/upgraded."
