@@ -86,7 +86,7 @@ casks=(
 
 # Install cask packages
 for cask in "${casks[@]}"; do
-    brew install --cask --appdir="/Applications" $cask || echo "$cask is already installed."
+    brew install --cask --appdir="/Applications" $cask || brew upgrade --cask $cask || echo "$cask is already installed via other (non-homebrew)."
 done
 
 echo "Success! Brew additional applications are installed."
