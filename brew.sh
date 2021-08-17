@@ -53,7 +53,7 @@ for formula in "${formulas[@]}"; do
     brew install $formula || brew upgrade $formula
 done
 
-echo "Success! Basic brew packages are installed."
+echo "Success! Homebrew formulas are installed."
 
 # ------------------------------------------------------------------------------
 
@@ -94,7 +94,7 @@ for cask in "${casks[@]}"; do
     brew install --cask --appdir="/Applications" $cask || brew upgrade --cask $cask || echo "$cask is already installed via other (non-homebrew)."
 done
 
-echo "Success! Brew additional applications are installed."
+echo "Success! Homebrew casks are installed."
 
 # ------------------------------------------------------------------------------
 
