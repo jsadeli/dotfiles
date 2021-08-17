@@ -12,6 +12,11 @@
 # ------------------------------------------------------------------------------
 
 # Check for Homebrew and install if we don't have it.
+# This script installs Homebrew to its preferred prefix:
+#   /usr/local                      for macOS Intel
+#   /opt/homebrew                   for Apple Silicon
+#   /home/linuxbrew/.linuxbrew      for Linux
+# so that you don’t need sudo when you brew install.
 if test ! $(which brew); then
   echo "Installing homebrew..."
   ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
