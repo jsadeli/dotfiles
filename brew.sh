@@ -67,6 +67,7 @@ casks=(
     opera               # Web browser.
     microsoft-edge      # [.pkg] Web browser.
     alfred              # Application launcher and productivity software.
+    path-finder         # File manager.
     betterzip           # Utility to create and modify archives.
     default-folder-x    # Utility to enhance the Open and Save dialogs in applications.
     hyperdock           # Add Window previews to dock apps.
