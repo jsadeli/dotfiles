@@ -48,6 +48,7 @@ formulas=(
     node            # node.js | Platform built on V8 to build network applications.
     qpdf            # Tools for and transforming and inspecting PDF files.
     # pandoc          # Swiss-army knife of markup format conversion.
+    gnupg           # GNU Pretty Good Privacy (PGP) package.
 )
 
 # Install packages
