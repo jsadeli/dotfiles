@@ -48,7 +48,7 @@ formulas=(
     node            # node.js | Platform built on V8 to build network applications.
     qpdf            # Tools for and transforming and inspecting PDF files.
     # pandoc          # Swiss-army knife of markup format conversion.
-    gnupg           # GNU Pretty Good Privacy (PGP) package.
+    # gnupg           # GNU Pretty Good Privacy (PGP) package.
 )
 
 # Install packages
@@ -96,6 +96,7 @@ casks=(
     microsoft-office    # [.pkg] Microsoft Office suite.
     # libreoffice         # Office suite.
     soulver             # Notepad with a built-in calculator.
+    gpg-suite-no-mail   # Tools to protect your files.
 )
 
 # Install cask packages
