@@ -1,7 +1,6 @@
 #!/bin/sh -xe
 
-# osxprep.sh will first install all updates.
-# If a restart is required, simply run the script again.
+# First install all updates. If a restart is required, simply run the script again.
 # Once all updates are installed, osxprep.sh will then Install Xcode Command Line Tools.
 # If you want to go the manual route, you can also install all updates by running "App Store",
 # selecting the "Updates" icon, then updating both the OS and installed apps.

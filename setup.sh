@@ -4,7 +4,7 @@
 # ------------------------------------------------------------------------------
 
 # Install all OS updates and Xcode Command Line Tools.
-./osxprep.sh
+./macosprep.sh
 
 # Install homebrew and default formulae/casks.
 ./brew.sh
