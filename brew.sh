@@ -49,6 +49,8 @@ formulas=(
     python          # A programming language that lets you work quickly and integrate systems more effectively.
     ruby            # Distributed revision control system.
     node            # node.js | Platform built on V8 to build network applications.
+    node-sass       # The reference implementation of Sass, written in Dart.
+    vue-client      # Standard tooling for Vue.js development.
 )
 
 # Install packages
