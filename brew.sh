@@ -43,12 +43,12 @@ formulas=(
     tree            # Display directories as trees.
     peco            # Simplistic interactive filtering tool.
     mas             # Mac App Store command-line interface.
-    python          # A programming language that lets you work quickly and integrate systems more effectively.
-    ruby            # Distributed revision control system.
-    node            # node.js | Platform built on V8 to build network applications.
     qpdf            # Tools for and transforming and inspecting PDF files.
     # pandoc          # Swiss-army knife of markup format conversion.
     # gnupg           # GNU Pretty Good Privacy (PGP) package.
+    python          # A programming language that lets you work quickly and integrate systems more effectively.
+    ruby            # Distributed revision control system.
+    node            # node.js | Platform built on V8 to build network applications.
 )
 
 # Install packages
