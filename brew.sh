@@ -112,3 +112,7 @@ echo "Success! Homebrew casks are installed."
 
 # Remove outdated versions from the cellar.
 brew cleanup
+
+# Enable autoupdate every 1 week (604800 seconds)
+# To stop, use the command 'brew autoupdate stop'
+brew autoupdate start 604800 --cleanup --enable-notification
