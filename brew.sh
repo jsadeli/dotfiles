@@ -17,7 +17,7 @@
 #   /opt/homebrew                   for Apple Silicon
 #   /home/linuxbrew/.linuxbrew      for Linux
 # so that you don’t need sudo when you brew install.
-if test ! $(which brew); then
+if ! command -v brew &> /dev/null; then
   echo "Installing homebrew..."
   ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 fi
@@ -82,10 +82,9 @@ casks=(
     spotify             # Music streaming service.
     # julia               # Programming language for technical computing.
     docker              # App to build and share containerized applications and microservices.
-    visual-studio-code  # Open-source code editor.
+    visual-studio-code  # Open-source code editor, diff, merge.
     jetbrains-toolbox   # JetBrains tools manager.
     imageoptim          # Tool to optimize images to a smaller size.
-    # sourcetree          # Graphical client for Git version control.
     handbrake           # Open-source video transcoder.
     # authy               # Two-factor authentication software.
     iina                # Free and open-source media player.
