@@ -9,6 +9,9 @@
 # Install homebrew and default formulae/casks.
 ./brew.sh
 
+# Update session/environments for pyenv.
+./pyenv.sh
+
 # Install default MAS apps.
 ./mas.sh
 

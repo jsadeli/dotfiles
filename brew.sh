@@ -46,7 +46,7 @@ formulas=(
     qpdf            # Tools for and transforming and inspecting PDF files.
     # pandoc          # Swiss-army knife of markup format conversion.
     # gnupg           # GNU Pretty Good Privacy (PGP) package.
-    python          # A programming language that lets you work quickly and integrate systems more effectively.
+    pyenv           # Python version management.
     ruby            # Distributed revision control system.
     node            # node.js | Platform built on V8 to build network applications.
     node-sass       # The reference implementation of Sass, written in Dart.
