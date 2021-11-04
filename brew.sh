@@ -1,4 +1,4 @@
-#!/bin/sh -xe
+#!/bin/bash
 
 # Install command-line tools using Homebrew.
 # ------------------------------------------------------------------------------
@@ -52,6 +52,7 @@ formulas=(
     node            # node.js | Platform built on V8 to build network applications.
     node-sass       # The reference implementation of Sass, written in Dart.
     vue-client      # Standard tooling for Vue.js development.
+    shellcheck      # Static analysis and lint tool, for (ba)sh scripts.
 )
 
 # Install packages

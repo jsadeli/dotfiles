@@ -1,4 +1,4 @@
-#!/bin/sh -xe
+#!/bin/bash
 
 # Main setup script.
 # ------------------------------------------------------------------------------
@@ -22,4 +22,5 @@
 # TODO: Configure GPG keys in vscode.
 # TODO: Configure GPG keys in git.
 # git config --global user.signingkey 1234567890123456
-# git config --global commit.gpgsign true
+# git config --global commit.gpgSign true
+# git config --global tag.gpgSign true
