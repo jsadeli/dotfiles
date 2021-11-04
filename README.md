@@ -1,6 +1,6 @@
 # Repository
 
-[![ShellCheck](https://github.com/vonix-id/dotfiles/actions/workflows/shellcheck.yml/badge.svg)](https://github.com/vonix-id/dotfiles/actions/workflows/shellcheck.yml)
+[![ShellCheck](https://github.com/vonix-id/dotfiles/actions/workflows/shellcheck.yml/badge.svg?branch=main)](https://github.com/vonix-id/dotfiles/actions/workflows/shellcheck.yml)
 
 Dotfiles.
 
