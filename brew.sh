@@ -1,4 +1,4 @@
-#!/bin/sh -xe
+#!/bin/bash
 
 # Install command-line tools using Homebrew.
 # ------------------------------------------------------------------------------
@@ -42,7 +42,7 @@ formulas=(
     # glances         # Alternative to top/htop.
     # tree            # Display directories as trees.
     # peco            # Simplistic interactive filtering tool.
-    # mas             # Mac App Store command-line interface.
+    mas             # Mac App Store command-line interface.
     # qpdf            # Tools for and transforming and inspecting PDF files.
     # pandoc          # Swiss-army knife of markup format conversion.
     # gnupg           # GNU Pretty Good Privacy (PGP) package.
@@ -52,6 +52,7 @@ formulas=(
     node            # node.js | Platform built on V8 to build network applications.
     node-sass       # The reference implementation of Sass, written in Dart.
     vue-client      # Standard tooling for Vue.js development.
+    shellcheck      # Static analysis and lint tool, for (ba)sh scripts.
 )
 
 # Install packages
