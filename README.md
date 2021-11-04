@@ -1,4 +1,6 @@
-# dotfiles
+# Repository
+
+[![ShellCheck](https://github.com/jsadeli/dotfiles/actions/workflows/shellcheck.yml/badge.svg)](https://github.com/jsadeli/dotfiles/actions/workflows/shellcheck.yml)
 
 Dotfiles.
 
