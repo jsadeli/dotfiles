@@ -57,7 +57,7 @@ formulas=(
 
 # Install packages
 for formula in "${formulas[@]}"; do
-    brew install $formula || brew upgrade $formula
+    brew install "$formula" || brew upgrade "$formula"
 done
 
 echo "Success! Homebrew formulas are installed."
@@ -75,6 +75,7 @@ casks=(
     betterzip           # Utility to create and modify archives.
     default-folder-x    # Utility to enhance the Open and Save dialogs in applications.
     hyperdock           # Add Window previews to dock apps.
+    alt-tab             # Enable Windows-like alt-tab.
     soundsource         # Sound and audio controller.
     moom                # Utility to move and zoom windows—on one display.
     little-snitch       # Host-based application firewall.
@@ -104,7 +105,7 @@ casks=(
 
 # Install cask packages
 for cask in "${casks[@]}"; do
-    brew install --cask --appdir="/Applications" $cask || brew upgrade --cask $cask || echo "$cask is already installed via other (non-homebrew)."
+    brew install --cask --appdir="/Applications" "$cask" || brew upgrade --cask "$cask" || echo "'$cask' is already installed via other (non-homebrew)."
 done
 
 echo "Success! Homebrew casks are installed."
