@@ -4,8 +4,8 @@
 # ------------------------------------------------------------------------------
 
 # Add default user name and email.
-git config --global user.name "Jeffrey Sadeli"
-git config --global user.email "jeffrey@sadeli.com"
+# git config --global user.name "Jeffrey Sadeli"
+# git config --global user.email "jeffrey@sadeli.com"
 
 # Assumes vscode is already installed.
 if ! command -v code &> /dev/null; then
