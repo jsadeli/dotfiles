@@ -18,6 +18,13 @@ if ! mas account >/dev/null; then
 fi
 
 # Install Mac App Store apps
+
+# show installed applications and their product identifiers:
+# mas list
+
+# search the mac app store and return their matching identifiers:
+# mast search Xcode
+
 # mas install 904280696   # Things
 # mas install 1333542190  # 1Password 7
 # mas install 1319778037  # iStat Menus
@@ -51,6 +58,9 @@ mas install 497799835   # Xcode
 # mas install 409201541   # Pages
 # mas install 409203825   # Numbers
 # mas install 409183694   # Keynote
+
+# list applications and pending updates:
+# mas outdated
 
 # Upgrade any already-installed apps.
 mas upgrade
