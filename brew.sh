@@ -38,6 +38,7 @@ formulas=(
     # coreutils       # GNU core utilities (those that come with OS X are outdated).
     # moreutils       # Collection of tools that nobody wrote when UNIX was young.
     # findutils       # Collection of GNU find, xargs, and locate.
+    gnu-sed         # GNU/Linux implementation of stream editor.
     # htop            # Improved top (interactive process viewer).
     # glances         # Alternative to top/htop.
     # tree            # Display directories as trees.
@@ -78,6 +79,7 @@ casks=(
     # alt-tab             # Enable Windows-like alt-tab.
     # soundsource         # Sound and audio controller.
     # moom                # Utility to move and zoom windows—on one display.
+    # shottr              # Screenshot measurement and annotation tool.
     # little-snitch       # Host-based application firewall.
     # cloudflare-warp     # Free app that makes your Internet safer.
     # hazel               # Automated organization.
@@ -96,7 +98,7 @@ casks=(
     # permute             # Converts and edits video, audio or image files.
     # microsoft-teams     # [.pkg] Meet, chat, call, and collaborate in just one place.
     # skype               # Video chat, voice call and instant messaging application.
-    # zoom              # [.pkg] Video communication and virtual meeting platform.
+    # zoom                # [.pkg] Video communication and virtual meeting platform.
     # microsoft-office    # [.pkg] Microsoft Office suite.
     # libreoffice         # Office suite.
     # soulver             # Notepad with a built-in calculator.
