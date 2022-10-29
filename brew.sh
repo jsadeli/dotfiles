@@ -54,6 +54,7 @@ formulas=(
     node-sass       # The reference implementation of Sass, written in Dart.
     vue-client      # Standard tooling for Vue.js development.
     shellcheck      # Static analysis and lint tool, for (ba)sh scripts.
+    # cloc            # Statistics utility to count lines of code.
 )
 
 # Install packages
