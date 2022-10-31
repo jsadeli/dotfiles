@@ -105,6 +105,7 @@ casks=(
     # libreoffice         # Office suite.
     # soulver             # Notepad with a built-in calculator.
     gpg-suite-no-mail   # Tools to protect your files.
+    quicklook-json        # QuickLook plugin for JSON files.
 )
 
 # Install cask packages
