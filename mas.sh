@@ -1,5 +1,6 @@
 #!/bin/bash
 
+# ------------------------------------------------------------------------------
 # Install Mac-App store via the homebrew 'mas' formula.
 # Assumes the homebrew 'mas' formula is already installed.
 # ------------------------------------------------------------------------------
