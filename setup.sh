@@ -4,16 +4,19 @@
 # Main setup script.
 # ------------------------------------------------------------------------------
 
-# Install all OS updates and Xcode Command Line Tools.
+# Install all MacOS updates and Xcode Command Line Tools.
 ./macosprep.sh
 
-# Install homebrew and default formulae/casks.
+# Update MacOS preferences.
+./macos.sh
+
+# Install Homebrew and default formulae/casks.
 ./brew.sh
 
 # Install default MAS apps.
 ./mas.sh
 
-# Update global git config file.
+# Update global Git config file.
 ./git.sh
 
 # TODO: Configure GPG keys for system.
