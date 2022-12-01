@@ -53,7 +53,7 @@ formulas=(
     # ruby            # Distributed revision control system.
     node            # node.js | Platform built on V8 to build network applications.
     node-sass       # The reference implementation of Sass, written in Dart.
-    # vue-client      # Standard tooling for Vue.js development.
+    # vite            # Next generation frontend tooling. It's fast!
     # angular-cli     # CLI tool for Angular.
     shellcheck      # Static analysis and lint tool, for (ba)sh scripts.
     cloc            # Statistics utility to count lines of code.
