@@ -74,11 +74,11 @@ casks=(
     google-chrome       # Web browser.
     # vivaldi             # Web browser focusing on customization and control.
     # opera               # Web browser.
-    # microsoft-edge      # [.pkg] Web browser.
+    microsoft-edge      # [.pkg] Web browser.
     # alfred              # Application launcher and productivity software.
     raycast             # Control your tools with a few keystrokes.
     # path-finder         # File manager.
-    betterzip           # Utility to create and modify archives.
+    # betterzip           # Utility to create and modify archives.
     default-folder-x    # Utility to enhance the Open and Save dialogs in applications.
     hyperdock           # Add Window previews to dock apps.
     alt-tab             # Enable Windows-like alt-tab.
@@ -87,7 +87,7 @@ casks=(
     shottr              # Screenshot measurement and annotation tool.
     little-snitch       # Host-based application firewall.
     cloudflare-warp     # Free app that makes your Internet safer.
-    hazel               # Automated organization.
+    # hazel               # Automated organization.
     bartender           # Menu bar icon organizer.
     spotify             # Music streaming service.
     # julia               # Programming language for technical computing.
@@ -99,7 +99,7 @@ casks=(
     # authy               # Two-factor authentication software.
     iina                # Free and open-source media player.
     vlc                 # Multimedia player.
-    downie              # Downloads videos from different websites.
+    # downie              # Downloads videos from different websites.
     # permute             # Converts and edits video, audio or image files.
     # microsoft-teams     # [.pkg] Meet, chat, call, and collaborate in just one place.
     # skype               # Video chat, voice call and instant messaging application.
@@ -107,7 +107,7 @@ casks=(
     microsoft-office    # [.pkg] Microsoft Office suite.
     libreoffice         # Office suite.
     # soulver             # Notepad with a built-in calculator.
-    gpg-suite-no-mail   # Tools to protect your files.
+    # gpg-suite-no-mail   # Tools to protect your files.
     quicklook-json        # QuickLook plugin for JSON files.
     qlmarkdown            # QuickLook generator for Markdown files.
 )
