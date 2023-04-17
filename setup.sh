@@ -18,3 +18,6 @@
 
 # Update global Git config file.
 ./git.sh
+
+# Update (replace) config files.
+./configs.sh
