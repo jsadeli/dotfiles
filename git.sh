@@ -19,8 +19,10 @@
 
 # set VSCode specific configurations
 if ! command -v code &> /dev/null; then
-    echo "Visual Studio Code is not installed."
+    echo "'Visual Studio Code' is not installed."
+    exit
 else
+    echo "'Visual Studio Code' found, configuring..."
     git config --global core.editor "code --wait"
     git config --global core.autocrlf input
     git config --global diff.tool vscode
