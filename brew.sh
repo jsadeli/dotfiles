@@ -44,6 +44,8 @@ formulas=(
     # glances         # Alternative to top/htop.
     # tree            # Display directories as trees.
     # peco            # Simplistic interactive filtering tool.
+    # exa             # Modern replacement for 'ls'
+    bat             # Clone of cat(1) with syntax highlighting and Git integration
     mas             # Mac App Store command-line interface.
     qpdf            # Tools for and transforming and inspecting PDF files.
     # pandoc          # Swiss-army knife of markup format conversion.
