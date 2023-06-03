@@ -21,7 +21,7 @@
 if ! command -v brew &> /dev/null; then
   echo "Installing homebrew..."
   /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-  #                     │││└─ location
+  #                     │││└─ follow location redirects (redo curl request if necessary)
   #                     ││└─ when used with -s it makes curl show an error message if it fails
   #                     │└─ silent or quiet mode
   #                     └─ fail silently on server errors
