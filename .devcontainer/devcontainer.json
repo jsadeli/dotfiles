@@ -3,7 +3,9 @@
   "build": {
     "dockerfile": "Dockerfile"
   },
-  "features": {},
+  "features": {
+    "ghcr.io/mikaello/devcontainer-features/modern-shell-utils:1": { "version": "latest" }
+  },
 
   // Configure tool-specific properties.
   "customizations": {
@@ -11,11 +13,15 @@
     "vscode": {
       // Set *default* container specific settings.json values on container create.
       "settings": {
-        "terminal.integrated.defaultProfile.linux": "zsh"
+        "terminal.integrated.defaultProfile.linux": "zsh",
+        "terminal.integrated.fontFamily": "'JetBrainsMono Nerd Font Mono', 'JetBrains Mono', monospace"
       },
 
       // Add the IDs of extensions you want installed when the container is created.
-      "extensions": ["mads-hartmann.bash-ide-vscode", "rogalmic.bash-debug"]
+      "extensions": [
+        "mads-hartmann.bash-ide-vscode",
+        "rogalmic.bash-debug"
+      ]
     }
   },
 
