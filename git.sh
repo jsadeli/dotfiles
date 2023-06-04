@@ -5,8 +5,8 @@
 # ------------------------------------------------------------------------------
 
 # Add default user name and email.
-# git config --global user.name "Jeffrey Sadeli"
-# git config --global user.email "jeffrey@sadeli.com"
+git config --global user.name "Jeffrey Sadeli"
+git config --global user.email "jsadeli@users.noreply.github.com"
 
 # TODO: Configure GPG keys for system.
 # TODO: Configure GPG keys in vscode.
@@ -26,7 +26,7 @@ else
     git config --global core.editor "code --wait"
     git config --global core.autocrlf input
     git config --global diff.tool vscode
-    git config --global difftool.vscode.cmd "code --wait --diff $LOCAL $REMOTE"
+    git config --global difftool.vscode.cmd "code --wait --diff \$LOCAL \$REMOTE"
     git config --global merge.tool vscode
-    git config --global mergetool.vscode.cmd "code --wait $MERGED"
+    git config --global mergetool.vscode.cmd "code --wait \$MERGED"
 fi

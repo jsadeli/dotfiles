@@ -8,3 +8,7 @@
 # .mpmrc
 rm -rf "$HOME/.npmrc"
 ln -s "$HOME/dotfiles/configs/.npmrc" "$HOME/.npmrc"
+
+# .gitconfig
+rm -rf "$HOME/.gitconfig"
+ln -s "$HOME/dotfiles/configs/.gitconfig" "$HOME/.gitconfig"

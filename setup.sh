@@ -10,6 +10,9 @@
 # Update MacOS preferences.
 ./macos.sh
 
+# Update (replace) config files.
+./configs.sh
+
 # Install Homebrew and default formulae/casks.
 ./brew.sh
 
@@ -18,6 +21,3 @@
 
 # Update global Git config file.
 ./git.sh
-
-# Update (replace) config files.
-./configs.sh
