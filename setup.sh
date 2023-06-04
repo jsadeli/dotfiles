@@ -10,14 +10,12 @@
 # Update MacOS preferences.
 ./macos.sh
 
-# Update (replace) config files.
-./configs.sh
-
 # Install Homebrew and default formulae/casks.
 ./brew.sh
 
 # Install default MAS apps.
 ./mas.sh
 
-# Update global Git config file.
-./git.sh
+# Update (replace) config files.
+./configs.sh
+./gitconfig.sh
