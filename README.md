@@ -1,6 +1,6 @@
 # Repository
 
-[![ShellCheck](https://github.com/vonix-id/dotfiles/actions/workflows/shellcheck.yml/badge.svg?branch=main)](https://github.com/vonix-id/dotfiles/actions/workflows/shellcheck.yml)
+[![ShellCheck](https://github.com/jsadeli/dotfiles/actions/workflows/shellcheck.yml/badge.svg)](https://github.com/jsadeli/dotfiles/actions/workflows/shellcheck.yml)
 
 This repository contains dotfiles (which are application configuration and settings files) which
 are compatible with macOS and Linux. It also serves as a way to help me setup and maintain my Mac.
