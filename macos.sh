@@ -21,7 +21,7 @@ defaults write NSGlobalDomain "NSDocumentSaveNewDocumentsToCloud" -bool false
 defaults write NSGlobalDomain "AppleShowScrollBars" -string "Always"
 
 # Show all file extensions in the Finder. Default is false.
-defaults write NSGlobalDomain "AppleShowAllExtensions" -bool "true"
+defaults write NSGlobalDomain "AppleShowAllExtensions" -bool true
 
 # ------------------------------------------------------------------------------
 # Dock
@@ -56,7 +56,7 @@ defaults write com.apple.dock "mru-spaces" -bool false
 # ------------------------------------------------------------------------------
 
 # Keep folders on top. Default is false.
-defaults write com.apple.finder "_FXSortFoldersFirst" -bool "true"
+defaults write com.apple.finder "_FXSortFoldersFirst" -bool true
 
 # Keep folders on top when sorting. Default is false.
 defaults write com.apple.finder "_FXSortFoldersFirstOnDesktop" -bool true
