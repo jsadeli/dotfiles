@@ -87,8 +87,8 @@ casks=(
     microsoft-edge      # [.pkg] Web browser.
     alfred              # Application launcher and productivity software.
     # raycast             # Control your tools with a few keystrokes.
-    # path-finder         # File manager.
-    # betterzip           # Utility to create and modify archives.
+    path-finder         # File manager.
+    betterzip           # Utility to create and modify archives.
     default-folder-x    # Utility to enhance the Open and Save dialogs in applications.
     # hyperdock           # Add Window previews to dock apps.
     dockdoor            # Window peeking utility app.
@@ -105,6 +105,7 @@ casks=(
     docker              # App to build and share containerized applications and microservices.
     visual-studio-code  # Open-source code editor, diff, merge.
     jetbrains-toolbox   # JetBrains tools manager.
+    # postman             # Collaboration platform for API development.
     imageoptim          # Tool to optimize images to a smaller size.
     # handbrake           # Open-source video transcoder.
     # authy               # Two-factor authentication software.
@@ -122,6 +123,7 @@ casks=(
     quicklook-json        # QuickLook plugin for JSON files.
     qlmarkdown            # QuickLook generator for Markdown files.
     chatgpt               # OpenAI's official ChatGPT desktop app.
+    whatsapp              # Native desktop client for WhatsApp.
 )
 
 # Install cask packages
