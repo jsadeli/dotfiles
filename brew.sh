@@ -85,8 +85,8 @@ casks=(
     # vivaldi             # Web browser focusing on customization and control.
     # opera               # Web browser.
     microsoft-edge      # [.pkg] Web browser.
-    # alfred              # Application launcher and productivity software.
-    raycast             # Control your tools with a few keystrokes.
+    alfred              # Application launcher and productivity software.
+    # raycast             # Control your tools with a few keystrokes.
     # path-finder         # File manager.
     # betterzip           # Utility to create and modify archives.
     default-folder-x    # Utility to enhance the Open and Save dialogs in applications.
