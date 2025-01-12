@@ -121,6 +121,7 @@ casks=(
     # gpg-suite-no-mail   # Tools to protect your files.
     quicklook-json        # QuickLook plugin for JSON files.
     qlmarkdown            # QuickLook generator for Markdown files.
+    chatgpt               # OpenAI's official ChatGPT desktop app.
 )
 
 # Install cask packages
