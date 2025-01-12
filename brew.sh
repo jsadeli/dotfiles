@@ -93,7 +93,7 @@ casks=(
     # hyperdock           # Add Window previews to dock apps.
     alt-tab             # Enable Windows-like alt-tab.
     soundsource         # Sound and audio controller.
-    moom                # Utility to move and zoom windows—on one display.
+    # moom                # Utility to move and zoom windows—on one display.
     shottr              # Screenshot measurement and annotation tool.
     little-snitch       # Host-based application firewall.
     cloudflare-warp     # Free app that makes your Internet safer.
