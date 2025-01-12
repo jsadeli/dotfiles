@@ -91,6 +91,7 @@ casks=(
     # betterzip           # Utility to create and modify archives.
     default-folder-x    # Utility to enhance the Open and Save dialogs in applications.
     # hyperdock           # Add Window previews to dock apps.
+    dockdoor            # Window peeking utility app.
     alt-tab             # Enable Windows-like alt-tab.
     soundsource         # Sound and audio controller.
     # moom                # Utility to move and zoom windows—on one display.
