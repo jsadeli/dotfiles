@@ -67,7 +67,8 @@ formulas=(
     # angular-cli     # CLI tool for Angular.
     shellcheck      # Static analysis and lint tool, for (ba)sh scripts.
     cloc            # Statistics utility to count lines of code.
-    # libpq           # Postgres C API library
+    # libpq           # Postgres C API library.
+    # helm            # Kubernetes package manager.
 )
 
 # Install packages
