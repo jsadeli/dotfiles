@@ -69,6 +69,7 @@ formulas=(
     cloc            # Statistics utility to count lines of code.
     # libpq           # Postgres C API library.
     # helm            # Kubernetes package manager.
+    # httpie          # User-friendly cURL replacement (command-line HTTP client).
 )
 
 # Install packages
