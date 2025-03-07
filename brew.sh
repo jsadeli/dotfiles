@@ -60,7 +60,7 @@ formulas=(
     # gnupg           # GNU Pretty Good Privacy (PGP) package.
     # pyenv           # Python version management.
     # pipenv          # Python dependency management tool.
-    # ruby            # Distributed revision control system.
+    # ruby            # Powerful, clean, object-oriented scripting language
     node            # node.js | Platform built on V8 to build network applications.
     node-sass       # The reference implementation of Sass, written in Dart.
     # vite            # Next generation frontend tooling. It's fast!
