@@ -43,6 +43,12 @@ brew upgrade
 # ------------------------------------------------------------------------------
 
 formulas=(
+    # --- zsh customizations ---------------------------------------------------
+    powerlevel10k                 # Theme for zsh
+    zsh-history-substring-search  # Zsh port of Fish shell's history search
+    zsh-autosuggestions           # Fish-like fast/unobtrusive autosuggestions for zsh
+    zsh-syntax-highlighting       # Fish shell like syntax highlighting for zsh
+    # --- shell utils ----------------------------------------------------------
     git             # Distributed revision control system.
     # coreutils       # GNU core utilities (those that come with OS X are outdated).
     # moreutils       # Collection of tools that nobody wrote when UNIX was young.
@@ -54,10 +60,7 @@ formulas=(
     # peco            # Simplistic interactive filtering tool.
     # exa             # Modern replacement for 'ls'
     bat             # Clone of cat(1) with syntax highlighting and Git integration
-    mas             # Mac App Store command-line interface.
-    qpdf            # Tools for and transforming and inspecting PDF files.
-    # pandoc          # Swiss-army knife of markup format conversion.
-    # gnupg           # GNU Pretty Good Privacy (PGP) package.
+    # --- dev tools ------------------------------------------------------------
     # pyenv           # Python version management.
     # pipenv          # Python dependency management tool.
     # ruby            # Powerful, clean, object-oriented scripting language
@@ -70,6 +73,11 @@ formulas=(
     # libpq           # Postgres C API library.
     # helm            # Kubernetes package manager.
     # httpie          # User-friendly cURL replacement (command-line HTTP client).
+    # --- general --------------------------------------------------------------
+    mas             # Mac App Store command-line interface.
+    qpdf            # Tools for and transforming and inspecting PDF files.
+    # pandoc          # Swiss-army knife of markup format conversion.
+    # gnupg           # GNU Pretty Good Privacy (PGP) package.
 )
 
 # Install packages
