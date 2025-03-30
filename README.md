@@ -11,3 +11,9 @@ are compatible with macOS and Linux. It also serves as a way to help me setup an
 1. Change working directory `cd ~/dotfiles`
 1. Run `./setup.sh` (may need to apply `chmod +x setup.sh` first).
 1. Restart the computer to finalize the process.
+
+## Development Containers
+
+- `.devcontainer/dotfiles/**`: contains customized dotfiles for zsh and p10k theme.
+- `.devcontainer/scripts/post-create.sh`: script to run on devcontainer post-creation.
+- `devcontainer.json`: sample devcontainer configuration; see `features` and `postCreateCommand`.
