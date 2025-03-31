@@ -8,7 +8,7 @@ YELLOW="\033[0;33m"
 # ------------------------------------------------------------------------------
 
 echo -e "${YELLOW}Install powerline fonts (for zsh theme)...${OFF}"
-git clone https://github.com/powerline/fonts.git
+git clone --depth=1 https://github.com/powerline/fonts.git
 cd fonts || exit
 ./install.sh
 cd .. && rm -rf fonts
