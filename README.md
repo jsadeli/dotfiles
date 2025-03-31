@@ -14,6 +14,14 @@ are compatible with macOS and Linux. It also serves as a way to help me setup an
 
 ## Development Containers
 
-- `.devcontainer/dotfiles/**`: contains customized dotfiles for zsh and p10k theme.
-- `.devcontainer/scripts/post-create.sh`: script to run on devcontainer post-creation.
-- `devcontainer.json`: sample devcontainer configuration; see `features` and `postCreateCommand`.
+The following files are useful for devcontainer deployment:
+
+- Devcontainer:
+  - [`.devcontainer/post-create.sh`](.devcontainer/post-create.sh): script to run on devcontainer post-creation.
+  - [`.devcontainer/devcontainer.json`](.devcontainer/devcontainer.json): sample devcontainer configuration; see `features` and `postCreateCommand`.
+- Configs:
+  - [`.p10k-lean.zsh`](configs/.p10k-lean.zsh) is powerlevel10k using the lean (minimalist) theme.
+    Rename to `.p10k.zsh` on final copy to destination.
+  - [`.p10k.zsh`](configs/.p10k.zsh) is powerlevel10k using the rainbow (full featured) theme.
+  - [`.zshrc-lite`](configs/.zshrc-lite) is minimally configured zsh with essential plugins.
+    Rename to `.zshrc` on final copy to destination.
