@@ -17,7 +17,7 @@ echo -e "${YELLOW}Install oh-my-zsh plugins and themes...${OFF}"
 zsh -c 'git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/themes/powerlevel10k'
 
 echo -e "${YELLOW}Copy powerlevel10k config...${OFF}"
-curl "https://raw.githubusercontent.com/jsadeli/dotfiles/refs/heads/main/configs/.p10k.zsh" -o "$HOME/.p10k.zsh"
+curl "https://raw.githubusercontent.com/jsadeli/dotfiles/refs/heads/main/configs/.p10k-lean.zsh" -o "$HOME/.p10k.zsh"
 
 echo -e "${YELLOW}Copy zsh config...${OFF}"
 curl "https://raw.githubusercontent.com/jsadeli/dotfiles/refs/heads/main/configs/.zshrc-lite" -o "$HOME/.zshrc"
