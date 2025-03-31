@@ -29,5 +29,5 @@
   // "remoteUser": "root"
 
   // Run commands after the container is created.
-  "postCreateCommand": ".devcontainer/scripts/post-create.sh"
+  "postCreateCommand": ".devcontainer/post-create.sh"
 }
