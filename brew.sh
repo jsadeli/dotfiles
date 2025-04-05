@@ -43,41 +43,45 @@ brew upgrade
 # ------------------------------------------------------------------------------
 
 formulas=(
-    # --- zsh customizations ---------------------------------------------------
-    powerlevel10k                 # Theme for zsh
-    zsh-history-substring-search  # Zsh port of Fish shell's history search
-    zsh-autosuggestions           # Fish-like fast/unobtrusive autosuggestions for zsh
-    zsh-syntax-highlighting       # Fish shell like syntax highlighting for zsh
-    # --- shell utils ----------------------------------------------------------
-    git             # Distributed revision control system.
-    # coreutils       # GNU core utilities (those that come with OS X are outdated).
-    # moreutils       # Collection of tools that nobody wrote when UNIX was young.
-    # findutils       # Collection of GNU find, xargs, and locate.
-    gnu-sed         # GNU/Linux implementation of stream editor.
-    # htop            # Improved top (interactive process viewer).
-    # glances         # Alternative to top/htop.
-    # tree            # Display directories as trees.
-    # peco            # Simplistic interactive filtering tool.
-    # exa             # Modern replacement for 'ls'
-    bat             # Clone of cat(1) with syntax highlighting and Git integration
-    # --- dev tools ------------------------------------------------------------
-    # pyenv           # Python version management.
-    # pipenv          # Python dependency management tool.
-    # ruby            # Powerful, clean, object-oriented scripting language
-    node            # node.js | Platform built on V8 to build network applications.
-    node-sass       # The reference implementation of Sass, written in Dart.
-    # vite            # Next generation frontend tooling. It's fast!
-    # angular-cli     # CLI tool for Angular.
-    shellcheck      # Static analysis and lint tool, for (ba)sh scripts.
-    cloc            # Statistics utility to count lines of code.
-    # libpq           # Postgres C API library.
-    # helm            # Kubernetes package manager.
-    # httpie          # User-friendly cURL replacement (command-line HTTP client).
-    # --- general --------------------------------------------------------------
-    mas             # Mac App Store command-line interface.
-    qpdf            # Tools for and transforming and inspecting PDF files.
-    # pandoc          # Swiss-army knife of markup format conversion.
-    # gnupg           # GNU Pretty Good Privacy (PGP) package.
+  # --- zsh customizations -----------------------------------------------------
+  powerlevel10k                 # Theme for zsh.
+  zsh-history-substring-search  # Zsh port of Fish shell's history search.
+  zsh-autosuggestions           # Fish-like fast/unobtrusive autosuggestions for zsh.
+  zsh-syntax-highlighting       # Fish shell like syntax highlighting for zsh.
+  # --- shell utils ------------------------------------------------------------
+  git             # Distributed revision control system.
+  # coreutils       # GNU core utilities (those that come with OS X are outdated).
+  # moreutils       # Collection of tools that nobody wrote when UNIX was young.
+  # findutils       # Collection of GNU find, xargs, and locate.
+  gnu-sed         # GNU/Linux implementation of stream editor.
+  # htop            # Improved top (interactive process viewer).
+  # glances         # Alternative to top/htop.
+  # tree            # Display directories as trees.
+  # peco            # Simplistic interactive filtering tool.
+  # exa             # Modern replacement for 'ls'
+  bat             # Clone of cat(1) with syntax highlighting and Git integration.
+  # --- dev tools --------------------------------------------------------------
+  # pyenv           # Python version management.
+  # pipenv          # Python dependency management tool.
+  # ruby            # Powerful, clean, object-oriented scripting language.
+  node            # node.js | Platform built on V8 to build network applications.
+  # node-sass       # The reference implementation of Sass, written in Dart.
+  # vite            # Next generation frontend tooling. It's fast!
+  # angular-cli     # CLI tool for Angular.
+  shellcheck      # Static analysis and lint tool, for (ba)sh scripts.
+  cloc            # Statistics utility to count lines of code.
+  # libpq           # Postgres C API library.
+  # helm            # Kubernetes package manager.
+  httpie          # User-friendly cURL replacement (command-line HTTP client).
+  # --- programming languages --------------------------------------------------
+  openjdk         # Development kit for the Java programming language.
+  kotlin          # Statically typed programming language for the JVM.
+  # julia           # Fast, Dynamic Programming Language.
+  # --- general ----------------------------------------------------------------
+  mas             # Mac App Store command-line interface.
+  qpdf            # Tools for and transforming and inspecting PDF files.
+  # pandoc          # Swiss-army knife of markup format conversion.
+  # gnupg           # GNU Pretty Good Privacy (PGP) package.
 )
 
 # Install packages
@@ -90,50 +94,64 @@ echo "Success! Homebrew formulas are installed."
 # ------------------------------------------------------------------------------
 
 casks=(
-    firefox             # Web browser.
-    google-chrome       # Web browser.
-    # vivaldi             # Web browser focusing on customization and control.
-    # opera               # Web browser.
-    microsoft-edge      # [.pkg] Web browser.
-    alfred              # Application launcher and productivity software.
-    # raycast             # Control your tools with a few keystrokes.
-    path-finder         # File manager.
-    betterzip           # Utility to create and modify archives.
-    default-folder-x    # Utility to enhance the Open and Save dialogs in applications.
-    # hyperdock           # Add Window previews to dock apps.
-    dockdoor            # Window peeking utility app.
-    alt-tab             # Enable Windows-like alt-tab.
-    soundsource         # Sound and audio controller.
-    # moom                # Utility to move and zoom windows—on one display.
-    shottr              # Screenshot measurement and annotation tool.
-    little-snitch       # Host-based application firewall.
-    cloudflare-warp     # Free app that makes your Internet safer.
-    # hazel               # Automated organization.
-    bartender           # Menu bar icon organizer.
-    spotify             # Music streaming service.
-    # julia               # Programming language for technical computing.
-    docker              # App to build and share containerized applications and microservices.
-    visual-studio-code  # Open-source code editor, diff, merge.
-    jetbrains-toolbox   # JetBrains tools manager.
-    # postman             # Collaboration platform for API development.
-    imageoptim          # Tool to optimize images to a smaller size.
-    # handbrake           # Open-source video transcoder.
-    # authy               # Two-factor authentication software.
-    iina                # Free and open-source media player.
-    vlc                 # Multimedia player.
-    # downie              # Downloads videos from different websites.
-    # permute             # Converts and edits video, audio or image files.
-    # microsoft-teams     # [.pkg] Meet, chat, call, and collaborate in just one place.
-    # skype               # Video chat, voice call and instant messaging application.
-    # zoom                # [.pkg] Video communication and virtual meeting platform.
-    microsoft-office    # [.pkg] Microsoft Office suite.
-    libreoffice         # Office suite.
-    # soulver             # Notepad with a built-in calculator.
-    # gpg-suite-no-mail   # Tools to protect your files.
-    quicklook-json        # QuickLook plugin for JSON files.
-    qlmarkdown            # QuickLook generator for Markdown files.
-    chatgpt               # OpenAI's official ChatGPT desktop app.
-    whatsapp              # Native desktop client for WhatsApp.
+  # --- web browsers -----------------------------------------------------------
+  firefox             # Web browser.
+  google-chrome       # Web browser.
+  # vivaldi             # Web browser with built-in email client focusing on customization and control.
+  microsoft-edge      # Multi-platform web browser.
+  # --- launchers --------------------------------------------------------------
+  alfred              # Application launcher and productivity software.
+  # raycast             # Control your tools with a few keystrokes.
+  # --- desktop ----------------------------------------------------------------
+  alt-tab             # Enable Windows-like alt-tab.
+  # --- finder  ----------------------------------------------------------------
+  path-finder         # File manager.
+  default-folder-x    # Utility to enhance the Open and Save dialogs in applications.
+  # --- quicklook plugins ------------------------------------------------------
+  quicklook-json        # QuickLook plugin for JSON files.
+  qlmarkdown            # QuickLook generator for Markdown files.
+  # --- dock  ------------------------------------------------------------------
+  dockdoor            # Window peeking utility app.
+  # --- menu bar  --------------------------------------------------------------
+  bartender           # Menu bar icon organizer.
+  # hiddenbar           # Utility to hide menu bar items.
+  stats                 # System monitor for the menu bar.
+  # itsycal             # Menu bar calendar.
+  # --- network ----------------------------------------------------------------
+  little-snitch       # Host-based application firewall.
+  cloudflare-warp     # Free app that makes your Internet safer.
+  # --- archives  --------------------------------------------------------------
+  betterzip           # Utility to create and modify archives.
+  # --- automation  ------------------------------------------------------------
+  # hazel               # Automated organization.
+  # --- design -----------------------------------------------------------------
+  shottr              # Screenshot measurement and annotation tool.
+  # --- development ------------------------------------------------------------
+  docker              # App to build and share containerized applications and microservices.
+  visual-studio-code  # Open-source code editor, diff, merge.
+  jetbrains-toolbox   # JetBrains tools manager.
+  # postman             # Collaboration platform for API development.
+  # --- media   ----------------------------------------------------------------
+  soundsource         # Sound and audio controller.
+  iina                # Free and open-source media player.
+  vlc                 # Multimedia player.
+  spotify             # Music streaming service.
+  imageoptim          # Tool to optimize images to a smaller size.
+  downie              # Downloads videos from different websites.
+  permute             # Converts and edits video, audio or image files.
+  # handbrake           # Open-source video transcoder.
+  # --- productivity -----------------------------------------------------------
+  microsoft-office    # Microsoft Office suite.
+  libreoffice         # Office suite.
+  # soulver             # Notepad with a built-in calculator.
+  # --- encryption -------------------------------------------------------------
+  gpg-suite-no-mail   # Tools to protect your files.
+  # --- communication ----------------------------------------------------------
+  whatsapp              # Native desktop client for WhatsApp.
+  # microsoft-teams     # Meet, chat, call, and collaborate in just one place.
+  # zoom                # Video communication and virtual meeting platform.
+  # --- generative ai ----------------------------------------------------------
+  chatgpt               # OpenAI's official ChatGPT desktop app.
 )
 
 # Install cask packages
