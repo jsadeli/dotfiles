@@ -44,10 +44,10 @@ brew upgrade
 
 formulas=(
   # --- zsh customizations -----------------------------------------------------
-  powerlevel10k                 # Theme for zsh.
   zsh-history-substring-search  # Zsh port of Fish shell's history search.
   zsh-autosuggestions           # Fish-like fast/unobtrusive autosuggestions for zsh.
   zsh-syntax-highlighting       # Fish shell like syntax highlighting for zsh.
+  oh-my-posh                    # A prompt theme engine for any shell.
   # --- shell utils ------------------------------------------------------------
   git             # Distributed revision control system.
   # coreutils       # GNU core utilities (those that come with OS X are outdated).
