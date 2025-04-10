@@ -131,7 +131,7 @@ casks=(
   visual-studio-code  # Open-source code editor, diff, merge.
   jetbrains-toolbox   # JetBrains tools manager.
   # postman             # Collaboration platform for API development.
-  warp                # Rust-based terminal
+  # warp                # Rust-based terminal
   # --- media   ----------------------------------------------------------------
   soundsource         # Sound and audio controller.
   iina                # Free and open-source media player.
