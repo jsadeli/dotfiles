@@ -1,6 +1,10 @@
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
+# ------------------------------------------------------------------------------
+# Oh My Zsh
+# ------------------------------------------------------------------------------
+
 # Path to your oh-my-zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
 
@@ -69,6 +73,10 @@ HIST_STAMPS="yyyy-mm-dd"
 # Would you like to use another custom folder than $ZSH/custom?
 # ZSH_CUSTOM=/path/to/new-custom-folder
 
+# ------------------------------------------------------------------------------
+# Zsh
+# ------------------------------------------------------------------------------
+
 # Which plugins would you like to load?
 # Standard plugins can be found in $ZSH/plugins/
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
@@ -86,7 +94,9 @@ source $(brew --prefix)/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zs
 
 source $ZSH/oh-my-zsh.sh
 
+#
 # User configuration
+#
 
 # zsh-completions
 # You may also need to force rebuild `zcompdump`:
@@ -123,9 +133,13 @@ bindkey '^[[B' history-substring-search-down
 # The following lines have been added by Docker Desktop to enable Docker CLI completions.
 fpath=(~/.docker/completions $fpath)
 
+#
 # Initialize zsh completions (for zsh-completions and Docker CLI)
+#
 autoload -Uz compinit
 compinit
 
+#
 # Activate oh-my-posh prompt; this should be the last line.
+#
 eval "$(oh-my-posh init zsh --config ~/dotfiles/configs/p10k_lean.omp.json)"
