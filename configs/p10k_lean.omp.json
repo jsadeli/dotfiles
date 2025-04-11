@@ -56,10 +56,13 @@
           "style": "plain",
           "foreground": "white",
           "background": "transparent",
+          "foreground_templates": [
+            "{{ if .Segments.Status.Error }}black{{ end }}"
+          ],
           "background_templates": [
             "{{ if .Error }}red{{ end }}"
           ],
-          "template": "{{ if gt .Code 0 }} {{ reason .Code }} {{ else }}\uf42e{{ end }}",
+          "template": "{{ if gt .Code 0 }} {{ .Code }} {{ reason .Code }} {{ end }}",
           "properties": {
             "always_enabled": true
           }
