@@ -39,8 +39,9 @@
             "fetch_status": true,
             "fetch_upstream_icon": true,
             "mapped_branches": {
-              "feat/*": "🚀 ",
-              "bug/*": "🐞️ "
+              "feat/*": "\uf427 ",
+              "bug/*": "\ueaaf ",
+              "fix/*": "\udb80\udc68 "
             }
           }
         }
