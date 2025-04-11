@@ -44,9 +44,10 @@ brew upgrade
 
 formulas=(
   # --- zsh customizations -----------------------------------------------------
-  zsh-history-substring-search  # Zsh port of Fish shell's history search.
-  zsh-autosuggestions           # Fish-like fast/unobtrusive autosuggestions for zsh.
   zsh-syntax-highlighting       # Fish shell like syntax highlighting for zsh.
+  zsh-completions               # Additional completion definitions for zsh.
+  zsh-autosuggestions           # Fish-like fast/unobtrusive autosuggestions for zsh.
+  zsh-history-substring-search  # Zsh port of Fish shell's history search.
   oh-my-posh                    # A prompt theme engine for any shell.
   # --- shell utils ------------------------------------------------------------
   git             # Distributed revision control system.

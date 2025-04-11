@@ -31,7 +31,8 @@
     "signingkey",
     "soulver",
     "soundsource",
-    "vite"
+    "vite",
+    "zcompdump"
   ],
   "terminal.integrated.fontFamily": "'MesloLGM Nerd Font Mono', monospace"
 }
