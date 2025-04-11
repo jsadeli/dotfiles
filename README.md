@@ -25,3 +25,8 @@ The following files are useful for devcontainer deployment:
   - [`.p10k.zsh`](configs/.p10k.zsh) is powerlevel10k using the rainbow (full featured) theme.
   - [`.zshrc-lite`](configs/.zshrc-lite) is minimally configured zsh with essential plugins.
     Rename to `.zshrc` on final copy to destination.
+
+## Notes
+
+- As of 2025-04-11, the [Powerlevel10k](https://github.com/romkatv/powerlevel10k) project appears to
+  be deprecated (in life-support mode). The recommended alternative is currently [Oh My Posh](https://ohmyposh.dev/).
