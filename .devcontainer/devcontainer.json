@@ -17,8 +17,8 @@
       "configureZshAsDefaultShell": true
     },
     "ghcr.io/devcontainers-extra/features/zsh-plugins:0": {
-      "plugins": "zsh-autosuggestions zsh-syntax-highlighting",
-      "omzPlugins": "https://github.com/zsh-users/zsh-autosuggestions.git https://github.com/zsh-users/zsh-syntax-highlighting.git"
+      "plugins": "zsh-syntax-highlighting zsh-completions zsh-autosuggestions",
+      "omzPlugins": "https://github.com/zsh-users/zsh-syntax-highlighting.git https://github.com/zsh-users/zsh-completions.git https://github.com/zsh-users/zsh-autosuggestions.git"
     }
   },
 

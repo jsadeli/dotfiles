@@ -8,15 +8,20 @@ HIST_STAMPS="yyyy-mm-dd"
 plugins=(
   git
   colored-man-pages
-  zsh-autosuggestions
   zsh-syntax-highlighting
+  zsh-autosuggestions
 )
 
-source $ZSH/oh-my-zsh.sh
+FPATH=${ZSH_CUSTOM:-${ZSH:-~/.oh-my-zsh}/custom}/plugins/zsh-completions/src:$FPATH
 
 # User configuration
 DISABLE_AUTO_UPDATE=true
 DISABLE_UPDATE_PROMPT=true
+
+# Initialize zsh completions
+autoload -U compinit && compinit
+
+source $ZSH/oh-my-zsh.sh
 
 # Activate oh-my-posh prompt; this should be the last line.
 # The path is set from the post-create.sh script.
