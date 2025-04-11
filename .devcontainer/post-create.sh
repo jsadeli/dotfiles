@@ -4,20 +4,19 @@ OFF="\033[0m"           # text reset
 YELLOW="\033[0;33m"
 
 # ------------------------------------------------------------------------------
-# zsh configuration
+# zsh configurations
 # ------------------------------------------------------------------------------
 
-echo -e "${YELLOW}Install powerline fonts (for zsh theme)...${OFF}"
-git clone --depth=1 https://github.com/powerline/fonts.git
-cd fonts || exit
-./install.sh
-cd .. && rm -rf fonts
+echo -e "${YELLOW}-> Install 'Meslo LGM NerdFont Mono Regular'...${OFF}"
+mkdir -p ~/.local/share/fonts
+(cd ~/.local/share/fonts && curl -fLO https://github.com/ryanoasis/nerd-fonts/raw/refs/heads/master/patched-fonts/Meslo/M/Regular/MesloLGMNerdFontMono-Regular.ttf)
 
-echo -e "${YELLOW}Install oh-my-zsh plugins and themes...${OFF}"
-zsh -c 'git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/themes/powerlevel10k'
+echo -e "${YELLOW}-> Install 'Oh My Posh' and custom theme...${OFF}"
+curl -s https://ohmyposh.dev/install.sh | bash -s
+mkdir -p "$HOME/.oh-my-posh"
+curl "https://raw.githubusercontent.com/jsadeli/dotfiles/refs/heads/main/configs/p10k_lean.omp.json" -o "$HOME/.oh-my-posh/p10k_lean.omp.json"
 
-echo -e "${YELLOW}Copy powerlevel10k config...${OFF}"
-curl "https://raw.githubusercontent.com/jsadeli/dotfiles/refs/heads/main/configs/.p10k-lean.zsh" -o "$HOME/.p10k.zsh"
+echo -e "${YELLOW}-> Copy customized zsh config...${OFF}"
+cp .devcontainer/configs/.zshrc "$HOME/.zshrc"
 
-echo -e "${YELLOW}Copy zsh config...${OFF}"
-curl "https://raw.githubusercontent.com/jsadeli/dotfiles/refs/heads/main/configs/.zshrc-lite" -o "$HOME/.zshrc"
+echo -e "${YELLOW}-> Done!${OFF}"

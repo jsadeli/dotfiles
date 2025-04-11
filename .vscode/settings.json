@@ -32,5 +32,6 @@
     "soulver",
     "soundsource",
     "vite"
-  ]
+  ],
+  "terminal.integrated.fontFamily": "'MesloLGM Nerd Font Mono', monospace"
 }
