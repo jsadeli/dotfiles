@@ -73,7 +73,7 @@
           "style": "plain",
           "foreground": "yellow",
           "background": "transparent",
-          "template": "\uf253 {{ .FormattedMs }}",
+          "template": " \uf253 {{ .FormattedMs }}",
           "properties": {
             "threshold": 5000,
             "style": "austin"
