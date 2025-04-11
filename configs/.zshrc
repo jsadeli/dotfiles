@@ -98,9 +98,6 @@ source $ZSH/oh-my-zsh.sh
 #   chmod -R go-w '/opt/homebrew/share/zsh'
 if type brew &>/dev/null; then
   FPATH=$(brew --prefix)/share/zsh-completions:$FPATH
-
-  autoload -Uz compinit
-  compinit
 fi
 
 # export MANPATH="/usr/local/man:$MANPATH"
@@ -125,9 +122,10 @@ bindkey '^[[B' history-substring-search-down
 
 # The following lines have been added by Docker Desktop to enable Docker CLI completions.
 fpath=(~/.docker/completions $fpath)
+
+# Initialize zsh completions (for zsh-completions and Docker CLI)
 autoload -Uz compinit
 compinit
-# End of Docker CLI completions
 
 # Activate oh-my-posh prompt; this should be the last line.
 eval "$(oh-my-posh init zsh --config ~/dotfiles/configs/p10k_lean.omp.json)"
