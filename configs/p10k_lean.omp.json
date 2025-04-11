@@ -34,7 +34,7 @@
           "style": "plain",
           "foreground": "lightGreen",
           "background": "transparent",
-          "template": "{{ .UpstreamIcon }} {{ .HEAD }}{{if .BranchStatus }} {{ .BranchStatus }}{{ end }}{{ if .Working.Changed }}  {{ .Working.String }}{{ end }}{{ if and (.Working.Changed) (.Staging.Changed) }} |{{ end }}{{ if .Staging.Changed }}  {{ .Staging.String }}{{ end }} ",
+          "template": "{{ .UpstreamIcon }} {{ .HEAD }}{{if .BranchStatus }} {{ .BranchStatus }}{{ end }}{{ if .Working.Changed }} \udb80\udd35 {{ .Working.String }}{{ end }}{{ if and (.Working.Changed) (.Staging.Changed) }} |{{ end }}{{ if .Staging.Changed }}  {{ .Staging.String }}{{ end }} ",
           "properties": {
             "fetch_status": true,
             "fetch_upstream_icon": true,
@@ -72,7 +72,7 @@
           "style": "plain",
           "foreground": "yellow",
           "background": "transparent",
-          "template": " {{ .FormattedMs }}",
+          "template": "\uf253 {{ .FormattedMs }}",
           "properties": {
             "threshold": 5000,
             "style": "austin"
@@ -83,7 +83,7 @@
           "style": "plain",
           "foreground": "darkGray",
           "background": "transparent",
-          "template": " \u23F2 {{ .CurrentDate | date .Format }} ",
+          "template": " \uf017 {{ .CurrentDate | date .Format }} ",
           "properties": {
             "time_format": "15:04:05"
           }
